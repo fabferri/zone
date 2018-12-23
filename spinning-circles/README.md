@@ -1,6 +1,6 @@
 <properties
-pageTitle= 'simple animation by WFP'
-description= "WFP to generate spinning circles"
+pageTitle= 'simple animation by WFP and UWP'
+description= "how to generate spinning circles in Windows"
 documentationcenter: na
 services=""
 documentationCenter="na"
@@ -17,7 +17,7 @@ editor=""/>
    ms.date="02/01/2015"
    ms.author="fabferri" />
 
-# WPF: spinning circles
+# Spinning circles in WPF and UWP
 
 Animation is an exciting topic of investigation and the main baseline for gaming. The term "animation" simply means that something is changing over time.  It's most commonly associated with changing motion over time (movement). WPF offers different methods to make animation and many examples are available in internet. The article speaks about how to spin multiple circles inside a canvas. In general animation requires some manner of custom code to be executed in a loop, in real time. In our post two different ways to implement animation are discussed:
 * **timer-based animation**: this approach is based on set up a timer and a call-back function that is periodically called back based on the frequency of the timer
