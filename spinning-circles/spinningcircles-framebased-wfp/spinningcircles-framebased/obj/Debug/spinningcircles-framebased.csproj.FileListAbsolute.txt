@@ -1,0 +1,9 @@
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-wfp\spinningcircles-framebased\obj\Debug\spinningcircles-framebased.csprojAssemblyReference.cache
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-wfp\spinningcircles-framebased\obj\Debug\MainWindow.baml
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-wfp\spinningcircles-framebased\obj\Debug\MainWindow.g.cs
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-wfp\spinningcircles-framebased\obj\Debug\App.g.cs
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-wfp\spinningcircles-framebased\obj\Debug\spinningcircles-framebased_MarkupCompile.cache
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-wfp\spinningcircles-framebased\obj\Debug\spinningcircles-framebased.g.resources
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-wfp\spinningcircles-framebased\obj\Debug\spinningcircles_framebased.Properties.Resources.resources
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-wfp\spinningcircles-framebased\obj\Debug\spinningcircles-framebased.csproj.GenerateResource.cache
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-wfp\spinningcircles-framebased\obj\Debug\spinningcircles-framebased.csproj.CoreCompileInputs.cache

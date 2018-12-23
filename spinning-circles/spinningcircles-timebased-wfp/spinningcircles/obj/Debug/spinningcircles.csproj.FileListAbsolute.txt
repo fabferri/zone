@@ -1,0 +1,14 @@
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\bin\Debug\spinningcircles.exe.config
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\bin\Debug\spinningcircles.exe
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\bin\Debug\spinningcircles.pdb
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\spinningcircles.csprojAssemblyReference.cache
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\MainWindow.baml
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\MainWindow.g.cs
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\App.g.cs
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\spinningcircles_MarkupCompile.cache
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\spinningcircles.g.resources
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\spinningcircles.Properties.Resources.resources
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\spinningcircles.csproj.GenerateResource.cache
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\spinningcircles.csproj.CoreCompileInputs.cache
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\spinningcircles.exe
+C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-wfp\spinningcircles\obj\Debug\spinningcircles.pdb

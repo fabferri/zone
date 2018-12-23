@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spinningcircles", "spinningcircles\spinningcircles.csproj", "{3D2A7117-FCC6-4513-B330-21DAC9685CF9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{26CE15C2-3A35-443E-92F8-C6AA2DAB5046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D2A7117-FCC6-4513-B330-21DAC9685CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2A7117-FCC6-4513-B330-21DAC9685CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2A7117-FCC6-4513-B330-21DAC9685CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2A7117-FCC6-4513-B330-21DAC9685CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CE15C2-3A35-443E-92F8-C6AA2DAB5046}.Debug|Any CPU.ActiveCfg = Debug
+		{26CE15C2-3A35-443E-92F8-C6AA2DAB5046}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE952E6E-CD2D-4E9F-B8C1-D9A08331211C}
+	EndGlobalSection
+EndGlobal

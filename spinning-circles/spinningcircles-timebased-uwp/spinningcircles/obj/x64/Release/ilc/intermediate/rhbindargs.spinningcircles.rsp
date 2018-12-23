@@ -1,0 +1,16 @@
+/osver:6.2
+/appcontainer
+/runtime:mrt100_app
+/eh:clr
+/pdb
+"/nativeLink:C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\x64\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-uwp\spinningcircles\obj\x64\Release\ilc\intermediate\MDIL\spinningcircles.mdilexe"
+"/i:C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-uwp\spinningcircles\obj\x64\Release\ilc\intermediate\MDIL"
+"/out:C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-uwp\spinningcircles\obj\x64\Release\ilc\intermediate\Native\spinningcircles.exe"
+"/pdbAltPath:C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-uwp\spinningcircles\bin\x64\Release\ilc"
+"/res:C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-uwp\spinningcircles\obj\x64\Release\ilc\intermediate\Native.res"
+"/i:C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x64\1.7.0\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"

@@ -1,0 +1,2 @@
+MainPackage=C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-uwp\spinningcircles\bin\ARM\Release\spinningcircles_1.0.1.0_ARM.appx
+SymbolPackage=C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-framebased-uwp\spinningcircles\AppPackages\spinningcircles_1.0.1.0_Test\spinningcircles_1.0.1.0_ARM.appxsym
