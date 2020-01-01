@@ -58,7 +58,9 @@ where the variables:
 
 
 To correct position all the circles at initial time (t=0) we use the following initial condition
+
 &theta;<sub>i</sub>(t=0)=(&pi;/180)\*(360\*k/N);    k=0,1,2,3...,N-1
+
 &alpha;<sub>i</sub>(t=0)=(&pi;/180)\*(360\*k/N);    k=0,1,2,3...,N-1
 
 Effect of parametric equation is to spin every circle around the main radius R with center (X0, Y0) and simultaneously around the secondary radius r with origin in the head of radius R.
