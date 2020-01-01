@@ -29,10 +29,15 @@ Let start our discussion from mathematic prospective; to spin circles we use the
 The Cartesian coordinate (abscissa and ordinate) are:
 
 X<sub>i</sub>(t)=X0+R\*cos&theta;<sub>i</sub>(t)+r\*cos &alpha;<sub>i</sub>(t)
+
 Y<sub>i</sub>(t)=Y0+R\*sin&theta;<sub>i</sub>(t)+r\*sin &alpha;<sub>i</sub>(t)
+
 &theta;<sub>i</sub>(t<sub>j</sub>)=&theta;<sub>i</sub>(t<sub>j-1</sub>)+v
+
 &alpha;<sub>i</sub>(t<sub>j</sub>)=&alpha;<sub>i</sub>(t<sub>j-1</sub>)+v2
+
 v=(&pi;/180)\*(N/10)
+
 v2=(&pi;/180)\*(0.3*k)   k=0,1,2,...N-1
 
 where the variables:
