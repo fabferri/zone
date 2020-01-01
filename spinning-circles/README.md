@@ -225,7 +225,7 @@ public void RenderFrame(object sender, System.EventArgs e)
 <img src="./media/app-controls.jpg" width="900">
 
 [![6]][6]
-
+[![video](./media/spinning-circles.mp4)](./media/spinning-circles.mp4)
 
 ### <a name="iperf3"></a>3. Note
 In UWP you can sideload the apps on unmanaged devices by following steps:
