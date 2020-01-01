@@ -119,9 +119,9 @@ In XAML file of our Visual Studio project, we have four controls types:
 * We have  five different controls **System.Windows.Controls.Slider** to change parameters in the equation:
 
 | Slider Name                           |      What’s changed              |
-|---------------------------------------|:--------------------------------:|
-| Slider Name="sliderMainRadius"        |  main radius R                   |
-| Slider Name="sliderSecondaryRadius"   |   secondary radius r             |
+|---------------------------------------|:---------------------------------|
+| Slider Name="sliderMainRadius"        | main radius R                    |
+| Slider Name="sliderSecondaryRadius"   | secondary radius r               |
 | Slider Name="sliderCirclesSize"       | diameter of circles              |
 | Slider Name="sliderAngularVelocity"   | angular velocity of circles      |
 | Slider Name="sliderTotalCirclesNumber"| total number of circle in canvas |
