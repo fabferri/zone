@@ -1,5 +1,5 @@
 <properties
-pageTitle= 'simple animation by WFP and UWP'
+pageTitle= 'simple animation by WFP'
 description= "how to generate spinning circles in Windows"
 documentationcenter: na
 services=""
@@ -17,7 +17,7 @@ editor=""/>
    ms.date="02/01/2015"
    ms.author="fabferri" />
 
-# Spinning circles in WPF and UWP
+# Spinning circles in WPF
 
 Animation is an exciting topic of investigation and the main baseline for gaming. The term "animation" simply means that something is changing over time.  It's most commonly associated with changing motion over time (movement). WPF offers different methods to make animation and many examples are available in internet. The article speaks about how to spin multiple circles inside a canvas. In general animation requires some manner of custom code to be executed in a loop, in real time. In our post two different ways to implement animation are discussed:
 * **timer-based animation**: this approach is based on set up a timer and a call-back function that is periodically called back based on the frequency of the timer
@@ -135,7 +135,7 @@ To show value of slider in a Textbox, we use in XAML file the slider as binding 
 The Name property represents name of the control, which is a unique identifier inside the tree. The Minimum and Maximum properties represent the minimum and maximum values of the slider range. Now, on the **ValueChanged** event of slider controls, we simply write the code to update the program variable of parametric equation.
 
 
-### <a name="iperf3"></a>1. timer-based animation
+### <a name="timer-based animation"></a>1. timer-based animation
 So far, we have built all elements to draw circles in a canvas; what is missing is our animation.
 WPF is designed to save developers from the difficulties of threading. Typically, WPF applications start with two threads: one for handling rendering and another for managing the UI. The rendering thread effectively runs hidden in the background while the UI thread receives input, handles events, paints the screen, and runs application code. Most applications use a single UI thread.
 The UI thread queues work items inside an object called a **Dispatcher**. The **System.Windows.Threading.Dispatcher** class provides services for managing the queue of work items for a thread. The Dispatcher orders the elements in its queue by priority. There are ten levels that may be specified when adding an element to the Dispatcher queue. These priorities are maintained in the DispatcherPriority enumeration. The Dispatcher selects work items on a priority basis and runs each one to completion.  Every UI thread must have at least one Dispatcher, and each Dispatcher can execute work items in exactly one thread.
@@ -185,7 +185,7 @@ private void timer1_Tick(object sender, EventArgs e)
 
 By default the DispatcherTimer tied to Dispatcher uses the Normal Priority but in our case we set the DispatcherPriority to the highest value (DispatcherPriority.Send).
 
-### <a name="iperf3"></a>2. frame-based animation
+### <a name="frame-based animation"></a>2. frame-based animation
 Structure of our project remains roughly the same, but we need to replace the DispatcherTimer with frame-based mechanism. WPF provides a way to create frame-based animation by attaching an event handler to the static Rendering event on System.Windows.Media.CompositionTarget.
 The System.Windows.Media.CompositionTarget class is a static class which represents the display surface on which your application is being drawn. 
 In other words every time a scene is drawn to screen, the CompositionTarget class raises the Rendering event to notify any event handlers that a frame has been rendered.
@@ -226,7 +226,7 @@ public void RenderFrame(object sender, System.EventArgs e)
 
 [![click here to watch the video](./media/spinning-circles.mp4)](./media/spinning-circles.mp4)
 
-### <a name="iperf3"></a>3. Note
+### <a name="Note"></a>3. Note
 In UWP you can sideload the apps on unmanaged devices by following steps:
 To turn on sideloading for unmanaged devices
 1. Open **Settings**.

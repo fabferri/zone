@@ -1,2 +1,0 @@
-MainPackage=C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-uwp\spinningcircles\bin\x86\Release\spinningcircles_1.0.0.0_x86.appx
-SymbolPackage=C:\Users\fabferri\Desktop\blog\blog1\spinningcircles-timebased-uwp\spinningcircles\AppPackages\spinningcircles_1.0.0.0_Test\spinningcircles_1.0.0.0_x86.appxsym
