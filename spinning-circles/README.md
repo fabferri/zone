@@ -226,6 +226,11 @@ public void RenderFrame(object sender, System.EventArgs e)
 
 [![click here to watch the video](./media/spinning-circles.mp4)](./media/spinning-circles.mp4)
 
+<br>
+
+`Tags: WFP` <br>
+`date: 02/01/2015`
+
 ### <a name="Note"></a>3. Note
 In UWP you can sideload the apps on unmanaged devices by following steps:
 To turn on sideloading for unmanaged devices
