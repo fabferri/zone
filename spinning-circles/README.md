@@ -231,18 +231,6 @@ public void RenderFrame(object sender, System.EventArgs e)
 `Tags: WFP` <br>
 `date: 02/01/2015`
 
-### <a name="Note"></a>3. Note
-In UWP you can sideload the apps on unmanaged devices by following steps:
-To turn on sideloading for unmanaged devices
-1. Open **Settings**.
-2. Click **Update & Security** > **For developers**.
-3. On **Use developer features**, select **Sideload apps**.
-
-As next step, import the security certificate:
-1. Open the security certificate for the appx package, and select **Install Certificate**.
-2. On the **Certificate Import Wizard**, select **Local Machine**.
-3. Import the certificate to the **Trusted Root Certification Authorities** folder.
-
 <!--Image References-->
 
 [1]: ./media/math-function.jpg "math function"
