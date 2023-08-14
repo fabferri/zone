@@ -434,7 +434,7 @@ public void RenderFrame(object sender, System.EventArgs e)
 
 <!--Image References-->
 
-[1]: <figure><img src="media/picture01.png"><figcaption>image caption</figcaption></figure>
+[1]: ./media/picture01.png "sphere in collision and coordinate system"
 [2]: ./media/picture02.png "two Cartesian coordinate systems"
 [3]: ./media/picture03.png "collision "
 [4]: ./media/picture04.png "circles and coordinates"
