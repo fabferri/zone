@@ -416,6 +416,11 @@ public void RenderFrame(object sender, System.EventArgs e)
 
 <br>
 
+Screenshot of the running application:
+
+[![10]][10]
+<p align="center">sketch 10: running application</p>
+
 ### <a name="Reference"></a> Reference
 
 [Ball to Ball Collision - Detection and Handling](http://stackoverflow.com/questions/345838/ball-to-ball-collision-detection-and-handling) <br>
@@ -435,12 +440,13 @@ public void RenderFrame(object sender, System.EventArgs e)
 [1]: ./media/picture01.png "sphere in collision and coordinate system"
 [2]: ./media/picture02.png "two Cartesian coordinate systems"
 [3]: ./media/picture03.png "collision "
-[4]: ./media/picture04.png "circles and coordinates"
-[5]: ./media/picture05.png "application controls"
+[4]: ./media/picture04.png "velocities direction inversion after collision"
+[5]: ./media/picture05.png "velocities after collision in the reference system Ref"
 [6]: ./media/click-on-start-flow.png "click-on Start flow"
 [7]: ./media/balls-start-position.png "balls stat position"
 [8]: ./media/main-program-flow.png "main program flow"
 [9]: ./media/inversion-velocities.png "inversion of velocity component orthogonal at the edge of canvas"
+[10]: ./media/running-application.png "screenshot of running application"
 
 <!--Link References-->
 
