@@ -51,17 +51,20 @@ Let start out with two spheres moving in the plane to have a collision:
 
 
 [![1]][1]
+
 <p style="text-align: center;">sketch 1</p>
 
 Also in bi-dimensional collision, we ignore every energy losses due to friction and rotation. The physical laws (the conservation of momentum and conservation of kinetic energy) are invariant for changing of Cartesian coordinate system, so we can apply a transformation and consider a new standard x'-y' coordinate system (sketch 2), where the x-axis lies along the collision line, and the y-axis is perpendicular to that.  In this new Cartesian coordinate system Ref' is easier to understand what happens.
 
 
 [![2]][2]
+
 <p style="text-align: center;">sketch 2</p>
 
 The sketch 3 shows the new vector components of velocities, in the new Cartesian coordinate system Ref' where the x-axis lies along the collision line, and the y-axis is perpendicular to that.
 
 [![3]][3]
+
 <p style="text-align: center;">sketch 3</p>
 
 In the new Cartesian coordinate system Ref' the velocities components of spheres along x<sup>'</sup>, y<sup>'</sup>-axis are:
@@ -82,11 +85,13 @@ u'<sub>2y</sub> = v'<sub>2y</sub>   &nbsp; &nbsp; &nbsp;   *(the y velocity of s
 The sketch 4 shows the x-velocities inversion, after the collision:
 
 [![4]][4]
+
 <p style="text-align: center;">sketch 4: velocities components in new Cartesian coordinate system Ref'</p>
 
 We have determined the 'after collision' velocities, but we have to transform the components back to the initial x-y reference frame Ref. <br>
 
 [![5]][5]
+
 <p style="text-align: center;">sketch 5: changing back to new initial Coordinate system Ref</p>
 
 Translation from Cartesian coordinate system Ref' to Ref can be execute by counterclockwise rotation matrix M($\Phi$):
@@ -207,6 +212,7 @@ private void StartButton_Click(object sender, RoutedEventArgs e)
 In the picture below is reported a flow diagram for click-on on Start button:
 
 [![6]][6]
+
 <p style="text-align: center;">sketch 6: flow executed by click-on Start button event</p>
 
 Let's briefly explain how works the logic of project.
@@ -422,8 +428,8 @@ public void RenderFrame(object sender, System.EventArgs e)
 [Delete all images added to canvas](http://stackoverflow.com/questions/10835755/delete-all-images-added-to-canvas) <br>
 
 `Tags: WFP` <br>
-`date: 02/01/2015`
-`date: 14/08/2023`
+`date: 02/01/2015` <br>
+`date: 14/08/2023` <br>
 
 
 **Note: Project runs with Visual Studio 2022.**
