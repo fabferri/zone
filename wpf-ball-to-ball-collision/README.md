@@ -91,7 +91,7 @@ We have determined the 'after collision' velocities, but we have to transform th
 
 Translation from Cartesian coordinate system Ref' to Ref can be execute by counterclockwise rotation matrix M($\Phi$):
 
-$$
+```math
 \begin{pmatrix}
 x \\
 y
@@ -101,7 +101,7 @@ y
   x' \\
  y'  
 \end{pmatrix}
-$$
+```
 
 
 $$
