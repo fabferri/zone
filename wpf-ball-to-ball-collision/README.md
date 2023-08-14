@@ -256,7 +256,7 @@ The callback function **RenderFrame()** is called every time the **Rendering** e
 <p align="center">sketch 8: main program flow</p>
 
 **RenderFrame()** has a main loop for scanning all elements of array of **Ball** class for two actions:
-- increase the position of the ellipse a step forward with magnitude specified in Vector velocity (v), to make an effect of animation:
+- increase the position of the ellipse a step forward with magnitude specified in vector velocity (v), to make an effect of animation:
 ```csharp
 balls[j].p = balls[j].p + balls[j].v;
 ```
@@ -268,7 +268,7 @@ balls[j].p = balls[j].p + balls[j].v;
 
 Inside the main loop of the **RenderFrame()** method exists a further loop which makes two cascade  checks:
 - First check runs through the **colliding()** method, to establish if the specific ball doesn’t intercept with any others.  
-**colliding()** method accepts as input parameters two Balls class and return a boolean equal true in case of interception between two balls (i.e. balls[i] and  balls[j]).
+**colliding()** method accepts as input parameters two Balls class and return a boolean equal true in case of interception between two balls (i.e. **balls[i]** and  **balls[j]**).
 To detect collision between two balls, is enough check that the distance between their centers is less than the sum of their radii. Given two circles (x0, y0, R0) and (x1,y1,R1), condition of interception follows the formula:
 ```csharp
      ABS(R0-R1) <= SQRT((x0 - x1)^2+(y0 - y1)^2) <= (R0 + R1)
