@@ -49,8 +49,9 @@ u<sub>2</sub> = v<sub>1</sub> (2 m<sub>1</sub>) / (m<sub>1</sub> + m<sub>2</sub>
 
 Let start out with two spheres moving in the plane to have a collision: 
 
-
+<p align="center">
 [![1]][1]
+</p>
 
 <p align="center">sketch 1: angles in collision</p>
 
