@@ -50,7 +50,7 @@ u<sub>2</sub> = v<sub>1</sub> (2 m<sub>1</sub>) / (m<sub>1</sub> + m<sub>2</sub>
 Let start out with two spheres moving in the plane to have a collision: 
 
 
-[![1]][1]{:style="display:block; margin-left:auto; margin-right:auto"}
+[![1]][1]
 
 <p style="text-align: center;">sketch 1</p>
 
@@ -59,7 +59,7 @@ Also in bi-dimensional collision, we ignore every energy losses due to friction 
 
 [![2]][2]
 
-<p style="text-align: center;">sketch 2</p>
+<p align="center">sketch 2</p>
 
 The sketch 3 shows the new vector components of velocities, in the new Cartesian coordinate system Ref' where the x-axis lies along the collision line, and the y-axis is perpendicular to that.
 
