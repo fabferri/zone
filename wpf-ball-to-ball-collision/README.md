@@ -65,7 +65,7 @@ The sketch 3 shows the new vector components of velocities, in the new Cartesian
 
 [![3]][3]
 
-<p align="center">sketch 3</p>
+<p align="center">sketch 3: velocity components in the new coordinate system</p>
 
 In the new Cartesian coordinate system Ref' the velocities components of spheres along x<sup>'</sup>, y<sup>'</sup>-axis are:
 
