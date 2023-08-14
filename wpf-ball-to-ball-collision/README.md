@@ -53,7 +53,7 @@ Let start out with two spheres moving in the plane to have a collision:
 [![1]][1]
 
 
-:::image type="content" source="/media/picture01.png" alt-text="sphere in collision and coordinate system":::
+:::image type="content" source="./media/picture01.png" alt-text="sphere in collision and coordinate system":::
 
 <p align="center">sketch 1: angles in collision</p>
 
