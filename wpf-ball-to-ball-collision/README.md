@@ -134,7 +134,7 @@ y
 ```
 
 The same formula for our speeds:
-$$
+```math
 \begin{pmatrix}
 u_{1x} \\
 u_{1y}
@@ -144,9 +144,9 @@ u_{1y}
   u'_{1x} *cos(\Phi)- u'_{1y} * sin(\Phi)\\
   u'_{1x} *sin(\Phi)+ u'_{1y} * cos(\Phi)\\  
 \end{pmatrix}
-$$
+```
 
-$$
+```math
 \begin{pmatrix}
 u_{2x} \\
 u_{2y}
@@ -156,7 +156,7 @@ u_{2y}
   u'_{2x} * cos(\Phi)- u'_{2y} * sin(\Phi)\\
   u'_{2x} * sin(\Phi)+ u'_{2y} * cos(\Phi)\\  
 \end{pmatrix}
-$$
+```
 
 
 All together: <br>
