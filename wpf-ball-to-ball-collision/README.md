@@ -52,20 +52,20 @@ Let start out with two spheres moving in the plane to have a collision:
 
 [![1]][1]
 
-<p style="text-align: center;">sketch 1</p>
+<p align="center">sketch 1: angles in collision</p>
 
 Also in bi-dimensional collision, we ignore every energy losses due to friction and rotation. The physical laws (the conservation of momentum and conservation of kinetic energy) are invariant for changing of Cartesian coordinate system, so we can apply a transformation and consider a new standard x'-y' coordinate system (sketch 2), where the x-axis lies along the collision line, and the y-axis is perpendicular to that.  In this new Cartesian coordinate system Ref' is easier to understand what happens.
 
 
 [![2]][2]
 
-<p align="center">sketch 2</p>
+<p align="center">sketch 2: new Cartesian coordinate system Ref'</p>
 
 The sketch 3 shows the new vector components of velocities, in the new Cartesian coordinate system Ref' where the x-axis lies along the collision line, and the y-axis is perpendicular to that.
 
 [![3]][3]
 
-<p style="text-align: center;">sketch 3</p>
+<p align="center">sketch 3</p>
 
 In the new Cartesian coordinate system Ref' the velocities components of spheres along x<sup>'</sup>, y<sup>'</sup>-axis are:
 
@@ -86,13 +86,13 @@ The sketch 4 shows the x-velocities inversion, after the collision:
 
 [![4]][4]
 
-<p style="text-align: center;">sketch 4: velocities components in new Cartesian coordinate system Ref'</p>
+<p align="center">sketch 4: velocities components in new Cartesian coordinate system Ref'</p>
 
 We have determined the 'after collision' velocities, but we have to transform the components back to the initial x-y reference frame Ref. <br>
 
 [![5]][5]
 
-<p style="text-align: center;">sketch 5: changing back to new initial Coordinate system Ref</p>
+<p align="center">sketch 5: changing back to new initial Coordinate system Ref</p>
 
 Translation from Cartesian coordinate system Ref' to Ref can be execute by counterclockwise rotation matrix M($\Phi$):
 
@@ -212,8 +212,7 @@ private void StartButton_Click(object sender, RoutedEventArgs e)
 In the picture below is reported a flow diagram for click-on on Start button:
 
 [![6]][6]
-
-***<p style="text-align: center;">sketch 6: flow executed by click-on Start button event</p>***
+**<p align="center">sketch 6: flow executed by click-on Start button event</p>**
 
 Let's briefly explain how works the logic of project.
 
@@ -244,7 +243,7 @@ canv.Children.Add(balls[k].ellip);
 On completion of **StartDraw()** all balls[k] (k=0,1,2,…. TotNumCircles) the circles are drawn in the canvas in fix position:
 
 [![7]][7]
-<p style="text-align: center;">sketch 7: initial position of all ellipses in the canvas</p>
+<p align="center">sketch 7: initial position of all ellipses in the canvas</p>
 
 The **System.Windows.Media.CompositionTarget** static class is the engine of balls animation and it represents the display surface on which our application is drawn.
 Every time the **CompositionTarget** class raises the **Rendering** event, notifies any event handlers that a frame has been rendered. To create the  animation we attach to the  Rendering event an event handler: <br>
@@ -255,7 +254,7 @@ The callback function **RenderFrame()** is called every time the **Rendering** e
 
 
 [![8]][8]
-<p style="text-align: center;">sketch 8: main program flow</p>
+<p align="center">sketch 8: main program flow</p>
 
 **RenderFrame()** has a main loop for scanning all elements of array of **Ball** class for two actions:
 - increase the position of the ellipse a step forward with magnitude specified in Vector velocity (v), to make an effect of animation:
@@ -266,7 +265,7 @@ balls[j].p = balls[j].p + balls[j].v;
 - verify that the ellipse does not intersect the edges of canvas. If the ellipse oversteps the boundary of canvas, it is applied an inversion of the velocity component orthogonal to the edge, see the below:
 
 [![9]][9]
-<p style="text-align: center;">sketch 9: inversion of velocity component orthogonal at the edge of canvas</p>
+<p align="center">sketch 9: inversion of velocity component orthogonal at the edge of canvas</p>
 
 Inside the main loop of the **RenderFrame()** method exists a further loop which makes two cascade  checks:
 - First check runs through the **colliding()** method, to establish if the specific ball doesn’t intercept with any others.  
@@ -354,8 +353,6 @@ public void resolveCollision(Ball _ball1, Ball _ball2)
     pos2 = pos2 - mtd * (im2 / (im1 + im2));
     _ball1.p = pos1;
     _ball2.p = pos2;
-
-    //-------------------
 
     if (((_ball1.p.X + _ball1.r) >= canv.Width) | ((_ball1.p.X - _ball1.r) <= 0))
     _ball1.v.X = -1 * _ball1.v.X;
