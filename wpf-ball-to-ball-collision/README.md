@@ -104,7 +104,7 @@ y
 ```
 
 
-$$
+```math
 \begin{pmatrix}
 x \\
 y
@@ -118,10 +118,10 @@ y
   x' \\
  y'  
 \end{pmatrix}
-$$
+```
 
 Executing matrix multiplication produce the result:
-$$
+```math
 \begin{pmatrix}
 x \\
 y
@@ -131,7 +131,7 @@ y
   x' * cos(\Phi) - y' * sin(\Phi)\\
   x' * sin(\Phi) + y' * cos(\Phi)\\  
 \end{pmatrix}
-$$
+```
 
 The same formula for our speeds:
 $$
