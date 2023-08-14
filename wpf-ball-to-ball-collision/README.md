@@ -49,9 +49,9 @@ u<sub>2</sub> = v<sub>1</sub> (2 m<sub>1</sub>) / (m<sub>1</sub> + m<sub>2</sub>
 
 Let start out with two spheres moving in the plane to have a collision: 
 
-<p align="center">
+
 [![1]][1]
-</p>
+
 
 <p align="center">sketch 1: angles in collision</p>
 
@@ -434,7 +434,7 @@ public void RenderFrame(object sender, System.EventArgs e)
 
 <!--Image References-->
 
-[1]: ./media/picture01.png "sphere in collision and coordinate system"
+[1]: <figure><img src="media/picture01.png"><figcaption>image caption</figcaption></figure>
 [2]: ./media/picture02.png "two Cartesian coordinate systems"
 [3]: ./media/picture03.png "collision "
 [4]: ./media/picture04.png "circles and coordinates"
