@@ -53,6 +53,8 @@ Let start out with two spheres moving in the plane to have a collision:
 [![1]][1]
 
 
+:::image type="content" source="/media/picture01.png" alt-text="sphere in collision and coordinate system":::
+
 <p align="center">sketch 1: angles in collision</p>
 
 Also in bi-dimensional collision, we ignore every energy losses due to friction and rotation. The physical laws (the conservation of momentum and conservation of kinetic energy) are invariant for changing of Cartesian coordinate system, so we can apply a transformation and consider a new standard x'-y' coordinate system (sketch 2), where the x-axis lies along the collision line, and the y-axis is perpendicular to that.  In this new Cartesian coordinate system Ref' is easier to understand what happens.
