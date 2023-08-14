@@ -50,7 +50,7 @@ u<sub>2</sub> = v<sub>1</sub> (2 m<sub>1</sub>) / (m<sub>1</sub> + m<sub>2</sub>
 Let start out with two spheres moving in the plane to have a collision: 
 
 
-[![1]][1]
+[![1]][1]{:style="display:block; margin-left:auto; margin-right:auto"}
 
 <p style="text-align: center;">sketch 1</p>
 
@@ -213,7 +213,7 @@ In the picture below is reported a flow diagram for click-on on Start button:
 
 [![6]][6]
 
-<p style="text-align: center;">sketch 6: flow executed by click-on Start button event</p>
+***<p style="text-align: center;">sketch 6: flow executed by click-on Start button event</p>***
 
 Let's briefly explain how works the logic of project.
 
