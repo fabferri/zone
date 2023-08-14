@@ -18,7 +18,7 @@ editor=""/>
 
 # Elastic collisions of balls in WFP
 
-Elastic collisions of multiple balls are not a trivial effect. Apparently this subject seems only related to physics, but collision between objects is simulated in gaming. To run collision of balls we need to understand physics laws.
+Elastic collisions of multiple balls are not a trivial effect. Apparently, this subject seems only related to physics, but collision between objects is simulated in gaming. To run collision of balls we need to understand physics laws.
 Consider two spherical rigid objects, denoted by subscripts 1 and 2, one of mass **m<sub>1</sub>** and the other of mass **m<sub>2</sub>**. <br> 
 Let's set things up so these two balls are approaching each other along the line joining their centers, a recipe for a head on collision. Let these balls not be rotating or vibrating; the motion is purely translation. Under these conditions, we may choose a reference frame, which is one dimensional, with the objects on the x-axis.
 We consider an isolated system, in other words a system where external forces are absent (nothing affects spheres in the stage). A perfectly elastic collision is defined as one in which there is no loss of kinetic energy in the collision; the conservation laws say in an elastic collision total kinetic energy is the same before and after the collision and total momentum remains constant throughout the collision.
@@ -30,12 +30,11 @@ where **v** is the initial velocity of each object before the collision, **u** i
 
 m<sub>1</sub>v<sub>1</sub><sup>2</sup> / 2 + m<sub>2</sub>v<sub>2</sub><sup>2</sup> / 2 = m<sub>1</sub>u<sub>1</sub><sup>2</sup> / 2 + m<sub>2</sub>u<sub>2</sub><sup>2</sup> / 2   <br>
 
-These two equations can rewritten as:
+These two equations can rewrite as:
 - momentum equation:      m<sub>1</sub> (v<sub>1</sub> - u<sub>1</sub>) = m<sub>2</sub> (u<sub>2</sub> - v<sub>2</sub>)   
 - conservation of kinetic energy: m<sub>1</sub> (v<sub>1</sub><sup>2</sup> - u<sub>1</sub><sup>2</sup>) = m2 (u<sub>2</sub><sup>2</sup> - v<sub>2</sub><sup>2</sup>)
 
-As long as the difference between final and initial velocities is not zero for either object (meaning a collision actually happens), we may divide the second equation by the first one, which yields:
-
+if the difference between final and initial velocities is not zero for either object (meaning a collision actually happens), we may divide the second equation by the first one, which yields:
 
 v<sub>1</sub> + u<sub>1</sub> = u<sub>2</sub> + v<sub>2</sub>  <br>
 or <br>
@@ -51,9 +50,6 @@ Let start out with two spheres moving in the plane to have a collision:
 
 
 [![1]][1]
-
-
-:::image type="content" source="./media/picture01.png" alt-text="sphere in collision and coordinate system":::
 
 <p align="center">sketch 1: angles in collision</p>
 
@@ -249,7 +245,7 @@ On completion of **StartDraw()** all balls[k] (k=0,1,2,…. TotNumCircles) the c
 <p align="center">sketch 7: initial position of all ellipses in the canvas</p>
 
 The **System.Windows.Media.CompositionTarget** static class is the engine of balls animation and it represents the display surface on which our application is drawn.
-Every time the **CompositionTarget** class raises the **Rendering** event, notifies any event handlers that a frame has been rendered. To create the  animation we attach to the  Rendering event an event handler: <br>
+Every time the **CompositionTarget** class raises the **Rendering** event, notifies any event handlers that a frame has been rendered. To create the animation we attach to the  Rendering event an event handler: <br>
 ```csharp
 CompositionTarget.Rendering += new EventHandler(RenderFrame);
 ```
