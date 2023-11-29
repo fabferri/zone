@@ -23,7 +23,7 @@ In nuget is availabile a package **System.Diagnostics.PerformanceCounter** that 
 * The nuget package support .NET 7 and .NET 8 <br>
 * The package version 8.0.0 has been verified.<br>
 
-The **System.Diagnostics** namespace provides classes that allow you to interact with performance counters. The PerformanceCounter Class has different constructors; in our code we use the constructor with the following format:
+The **System.Diagnostics** namespace provides classes that allows you to interact with performance counters. The PerformanceCounter Class has different constructors; in our code we use the constructor with the following format:
 ```csharp 
 public PerformanceCounter(
 	string categoryName,
