@@ -16,7 +16,7 @@ editor=""/>
    ms.date="29/11/2023"
    ms.author="fabferri" />
 
-## How to track Windows performance counters in .NET
+# How to track Windows performance counters in .NET
 
 In nuget is availabile a package **System.Diagnostics.PerformanceCounter** that allows capture of the system performance counters in Windows: [nuget PerformanceCounter package][link1] <br>
 * The package provides an interface for collecting various kinds of system data such as CPU, memory, and disk usage. <br>
@@ -79,7 +79,7 @@ Running the program will be shown in the console the the following parameters:
 
 [![3]][3]
 
-### <a name="CategoryName: Processor"></a>1. CategoryName: Processor
+## <a name="CategoryName: Processor"></a>1. CategoryName: Processor
 
 **PerformanceCounter("Processor", "% Processor Time", "_Total");** <br>
 The **Processor\% Processor Time** counter determines the percentage of time the processor is busy by measuring the percentage of time the thread of the Idle process is running and then subtracting that from 100 percent. This measurement is the amount of processor utilization.
@@ -98,7 +98,7 @@ The percentage of non-idle processor time spent in privileged mode. Privileged m
 
 
 
-#### <a name="CategoryName: Memory"></a>3. CategoryName: Memory
+## <a name="CategoryName: Memory"></a>2. CategoryName: Memory
 
 **PerformanceCounter("Memory", "Available MBytes", null);** <br>
 This measures the amount of physical memory, in megabytes, available for running processes. If this value is less than 5 percent of the total physical RAM, that means there is insufficient memory, and that can increase paging activity. 
@@ -122,7 +122,7 @@ Shows the size, in bytes, of the nonpaged pool. Memory\ Pool Nonpaged Bytes is c
 **PerformanceCounter("Memory", "Cache Bytes", null);**
 Shows the sum of the values of System Cache Resident Bytes, System Driver Resident Bytes, System Code Resident Bytes, and Pool Paged Resident Bytes.
 
-#### <a name="CategoryName: Memory"></a>3. CateroryName: PhysicalDisk 
+## <a name="CategoryName: Memory"></a>3. CateroryName: PhysicalDisk 
 
 **PerformanceCounter("PhysicalDisk", "Disk Read Bytes/sec", "_Total");** <br>
 **PerformanceCounter("PhysicalDisk", "Disk Write Bytes/sec", "_Total");** <br>
@@ -135,6 +135,7 @@ it captures the average time, in seconds, of a read/write of data from/to the di
 
 
 #### <a name="CategoryName: Memory"></a>4. CategoryName: System
+
 **PerformanceCounter("System", "Context Switches/sec", null);** <br>
 A context switch occurs when the kernel switches the processor from one thread to another. A context switch might also occur when a thread with a higher priority than the running thread becomes ready or when a running thread must wait for some reason (such as an I/O operation). Context switching activity is important for several reasons. A program that monopolizes the processor lowers the rate of context switches because it does not allow much processor time for the other processes' threads. A high rate of context switching means that the processor is being shared repeatedly — for example, by many threads of equal priority. The Thread\Context Switches/sec counter value increases when the thread gets or loses the time of the processor. A high context-switch rate often indicates that there are too many threads competing for the processors on the system. The **System\Context Switches/sec** counter reports systemwide context switches.
 <br>
