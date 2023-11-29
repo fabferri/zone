@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sysparams", "sysparams.csproj", "{3D7D16B5-A7DB-4027-B4B5-72D1B9F4DBEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D7D16B5-A7DB-4027-B4B5-72D1B9F4DBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7D16B5-A7DB-4027-B4B5-72D1B9F4DBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7D16B5-A7DB-4027-B4B5-72D1B9F4DBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7D16B5-A7DB-4027-B4B5-72D1B9F4DBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F3636CB-6577-4BD8-9744-F98B4D6A6360}
+	EndGlobalSection
+EndGlobal
