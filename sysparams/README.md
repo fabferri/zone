@@ -134,7 +134,7 @@ PerformanceCounter captures the total number of bytes sent to the disk (write) a
 it captures the average time, in seconds, of a read/write of data from/to the disk.
 
 
-#### <a name="CategoryName: Memory"></a>4. CategoryName: System
+## <a name="CategoryName: Memory"></a>4. CategoryName: System
 
 **PerformanceCounter("System", "Context Switches/sec", null);** <br>
 A context switch occurs when the kernel switches the processor from one thread to another. A context switch might also occur when a thread with a higher priority than the running thread becomes ready or when a running thread must wait for some reason (such as an I/O operation). Context switching activity is important for several reasons. A program that monopolizes the processor lowers the rate of context switches because it does not allow much processor time for the other processes' threads. A high rate of context switching means that the processor is being shared repeatedly — for example, by many threads of equal priority. The Thread\Context Switches/sec counter value increases when the thread gets or loses the time of the processor. A high context-switch rate often indicates that there are too many threads competing for the processors on the system. The **System\Context Switches/sec** counter reports systemwide context switches.
