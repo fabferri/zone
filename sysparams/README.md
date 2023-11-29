@@ -1,6 +1,6 @@
 <properties
-pageTitle= 'Windows performance system counters in .NET'
-description= "Windows performance system counters in .NET"
+pageTitle= 'Windows performance counters in .NET'
+description= "Windows performance counters in .NET"
 documentationcenter: github
 services=""
 documentationCenter="na"
@@ -16,7 +16,7 @@ editor=""/>
    ms.date="29/11/2023"
    ms.author="fabferri" />
 
-## how to track Windows performance system counters in .NET
+## How to track Windows performance counters in .NET
 
 In nuget is availabile a package **System.Diagnostics.PerformanceCounter** that allows capture of the system performance counters in Windows: [nuget PerformanceCounter package][link1] <br>
 * The package provides an interface for collecting various kinds of system data such as CPU, memory, and disk usage. <br>
