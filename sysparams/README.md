@@ -75,7 +75,7 @@ To add the **System.Diagnostics.PerformanceCounter** package to the Visual Studi
 
 [![2]][2]
 
-Running the program will be shown in the console the the following parameters:
+When the program starts the following output is displayed in the console:
 
 [![3]][3]
 
